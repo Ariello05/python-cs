@@ -80,7 +80,7 @@ if __name__ == "__main__":
         if len(sys.argv) < 3:
             print(f"{OPENRED}FAILURE{CLOSECOLOR}")
             print(
-                f"{OPENRED}Expected:{OPENBLUE} --encode|--decode input output{CLOSECOLOR}")
+                f"{OPENYELLOW}Expected:{OPENBLUE} --encode|--decode input output{CLOSECOLOR}")
             print(
                 f"{OPENYELLOW}Got:\t {OPENBLUE}{' '.join(sys.argv[1:])}{CLOSECOLOR}")
         else:
