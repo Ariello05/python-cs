@@ -3,7 +3,7 @@ from os import rename, walk, path
 from colors import *
 import sys
 
-BUF_SIZE = 65536  # lets read stuff in 64kb chunks!
+BUF_SIZE = 65536  # 64kb
 
 
 def get_file_hash(filepath):
