@@ -4,7 +4,7 @@ import random
 
 # Iterative method of generating binary tree of height {height} using BFS 'like' approach
 # In the first step add root and atleast 1 node
-# For each added node add between [0-2] new nodes
+# For each added node add [0-2] new children nodes
 # Continue through queue until height is reached => until queue is not empty
 def generateTree(height):
     if height == 1:

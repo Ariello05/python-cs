@@ -16,9 +16,8 @@ class Node(object):
     def get_last_added(self):
         return self.children[-1]
 
+
 # Iterative method of generating n-ary tree of height {height} using all nodes approach
-
-
 def generateTree(height):
 
     tree = Node(1)
