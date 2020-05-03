@@ -1,0 +1,2 @@
+
+        rating = float(rating)
